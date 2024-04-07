@@ -1,0 +1,262 @@
+
+
+.navbar01 
+{
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom */
+     /* Add a background color for visibility in logo*/
+  }
+
+  .navbar01 img 
+  {
+    width: 400px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s;
+  }
+
+  ul 
+  {
+    font-size: 110;
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+  }
+
+  .menu-bar ul ul 
+  {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    color: floralwhite;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-bar ul li {
+    font-family: Impact;
+    position: relative;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    list-style-type: none;
+  }
+
+  .menu-bar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background on hover */
+    backdrop-filter: blur(10px); /* Apply a blur effect on hover */
+    border-radius: 5px;
+  }
+
+  .menu-bar ul .dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(227, 26, 26);
+    padding: 0;
+    margin-top: 5px;
+    margin-left: -15px;
+  }
+
+  .menu-bar ul .dropdown li {
+    font-family: Impact;
+    width: 120px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .menu-bar ul li:hover .dropdown {
+    display: block;
+  }
+
+  .menu-bar ul li {
+    position: relative;
+  }
+
+  .menu-bar ul li:hover > ul {
+    display: block;
+  }
+
+  .menu-bar ul li ul li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu-bar ul li:last-child {
+    margin-left: 100px;
+  }
+
+  .menu-bar {
+    font-size: 25px; /* Adjust the font size as needed */
+    
+    cursor: pointer;
+    transition: transform 0.5s;
+    text-align: center;
+    
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    color: rgb(242, 240, 239);
+  }
+
+  .menu-bar ul li {
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .menu-bar ul li:hover {
+    backdrop-filter: blur(12px);
+    color: #000000;
+    border-radius: 1000px;
+  }
+
+  .paragraph2 {
+    margin: 150px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+  }
+
+ 
+ 
+
+  .lets-go-btn {
+    text-align: center;
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 15px 60px;
+    margin-left: 450px;
+    text-align: center;
+    line-height: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+  }
+
+  .lets-go-btn:hover {
+    text-align: center;
+    background: rgb(54, 1, 1);
+  }
+
+  .icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+  }
+
+  .icons a {
+    margin-right: 75px;
+  }
+
+  .icons:hover {
+    transform: scale(1.5);
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: -5%;
+    padding: 25px;
+  }
+
+  .p1 {
+    color: rgb(251, 250, 246);
+    font-size: larger;
+   
+    padding-bottom: 10px;
+  }
+  .search-bar {
+    width: 100%; /* Increased the width */
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 200px;
+    margin-top: 150px;
+    
+    backdrop-filter: blur(8px); /* Apply a blur effect */
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.search-bar input {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove default border */
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text color */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.search-bar i 
+{
+
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fdf8f8; /* White color for the search icon */
+}
+
+.search-bar input:focus {
+    outline: black;
+}
+
+.search-bar input::placeholder {
+    font-weight: bold;
+    color: #ffffff; /* Color of the placeholder text */
+    font-size: 20px;
+    text-align: center; /* Center the text */
+    width: 100%; /* Make the text take up the full width */
+    overflow: hidden;
+    
+}
+
+
+
+
+
+  .image-container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    backdrop-filter: blur(4px);
+    margin-left: 0px;
+  }
+  
+
+  .image-container1 img {
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .bounce-on-hover {
+    transition: transform 0.1s;
+  }
+
+  .bounce-on-hover:hover {
+    transform: translateY(-30px);
+  }
